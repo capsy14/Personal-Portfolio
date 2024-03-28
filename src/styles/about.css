@@ -1,0 +1,57 @@
+.heading-name{
+    color: white;
+    font-size: 80px;
+    margin-left: -245px;
+    background: linear-gradient(
+            to right,
+            rgb(148, 34, 34) 20%,
+            #12b8ff 30%,
+            #00425e 70%,
+            rgb(206, 122, 223) 80%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        background-size: 500% auto;
+        animation: textShine 5s ease-in-out infinite alternate;
+    }
+    @keyframes textShine {
+        0% {
+            background-position: 0% 50%;
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+}
+.glowing-name{
+        background: linear-gradient(
+            to right,
+            #cd53b9 20%,
+            #12b8ff 30%,
+            #0073a5 70%,
+            rgb(179, 0, 255) 80%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        background-size: 500% auto;
+        animation: textShine 5s ease-in-out infinite alternate;
+    }
+    @keyframes textShine {
+        0% {
+            background-position: 0% 50%;
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+    }
+    .eth-logo{
+        margin-top: 20px;
+        margin-left: 700px;
+        border: #00425e;
+        border-color: black;
+        border-width:  4px;
+        size: 20px;
+    }
